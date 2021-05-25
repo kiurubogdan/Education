@@ -10,5 +10,5 @@ function Submit() {
 }
 
 function logout() {
-	window.location.assign("index.html")
+	window.location.assign("../index.html")
 }
