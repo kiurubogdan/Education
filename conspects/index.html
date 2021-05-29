@@ -79,42 +79,12 @@
 			</a>
 		</div>
 		<div class="main-content flex">
-			<div class="cathegory">
-				<a href="eng/index.html">
-					<br>
-					<b>Английский язык</b>
-				</a>
-			</div>
-			<div class="cathegory">
-				<a href="#">
-					<br>
-					<b>Литература</b>
-				</a>
-			</div>
-			<div class="cathegory">
-				<a href="#">
-					<br>
-					<b>Математика</b>
-				</a>
-			</div>
-			<div class="cathegory">
-				<a href="#">
-					<br>
-					<b>Музыка</b>
-				</a>
-			</div>
-			<div class="cathegory">
-				<a href="#">
-					<br>
-					<b>Русский язык</b>
-				</a>
-			</div>
-			<div class="cathegory">
-				<a href="#">
-					<br>
-					<b>Окружающий мир</b>
-				</a>
-			</div>
+			<div class="cathegory eng" onclick="redirect('eng/index.html')"></div>
+			<div class="cathegory lit" onclick="redirect('lit/index.html')"></div>
+			<div class="cathegory math" onclick="redirect('math/index.html')"></div>
+			<div class="cathegory music" onclick="redirect('music/index.html')"></div>
+			<div class="cathegory russian" onclick="redirect('okrmir/index.html')"></div>
+			<div class="cathegory okrmir" onclick="redirect('okrmir/index.html')"></div>
 		</div>
 	</main>
 	<footer>
@@ -122,5 +92,9 @@
 	</footer>
 </body>
 <script src="../assets/scripts/check.js"></script>
-
+<script>
+	function redirect(a) {
+		window.location.assign(a);
+	}
+</script>
 </html>
